@@ -5,6 +5,7 @@ Collection of publicly available IPTV (Internet Protocol television) channels fr
 ## Table of contents
 
 - 🚀 [How to use?](#how-to-use)
+- 🔧 [Developer Setup](#developer-setup)
 - 📺 [Playlists](#playlists)
 - 🗓 [EPG](#epg)
 - 🗄 [Database](#database)
@@ -21,6 +22,38 @@ Collection of publicly available IPTV (Internet Protocol television) channels fr
 Simply paste the link to one of the playlists into [any video player](https://github.com/iptv-org/awesome-iptv#apps) that supports live streaming and press _Open_.
 
 ![VLC Network Panel](https://github.com/iptv-org/iptv/raw/master/.readme/preview.png)
+
+## Developer Setup
+
+Want to contribute or work with the repository locally? We've created automated setup scripts to make it easy!
+
+### Quick Start
+
+Choose the script for your operating system:
+
+**Linux/macOS:**
+```bash
+chmod +x setup-dev-dashboard.sh
+./setup-dev-dashboard.sh
+```
+
+**Windows PowerShell:**
+```powershell
+.\setup-dev-dashboard.ps1
+```
+
+**Windows Command Prompt:**
+```cmd
+setup-dev-dashboard.bat
+```
+
+These scripts will:
+- ✅ Check for required dependencies (Git, Node.js, npm)
+- ✅ Clone the repository (if needed)
+- ✅ Install all npm dependencies
+- ✅ Provide you with a developer dashboard showing available commands
+
+For detailed instructions and troubleshooting, see [SETUP-SCRIPTS-README.md](SETUP-SCRIPTS-README.md).
 
 ## Playlists
 
